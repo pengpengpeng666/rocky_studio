@@ -2,14 +2,20 @@
 
 This repository hosts the GitHub Pages site that serves as the introduction and discussion hub for **Rocky's Studio**: <https://rocky-studio.pages.dev/#/>
 
+The published Pages site lives at: <https://pengpengpeng666.github.io/rocky_studio/>
+
 ## What is Rocky's Studio?
 
 Rocky's Studio is a collection of small, focused, in-browser web tools for developers and power users — JSON formatter, regex tester, HTTP client, X.509 certificate viewer, packet analyzer, and many more. Everything runs in your browser; nothing is uploaded to a server.
 
 ## Where to discuss
 
-- **Ideas & questions:** [GitHub Discussions](https://github.com/pengpengpeng666/rocky_studio/discussions)
-- **Bug reports:** [GitHub Issues](https://github.com/pengpengpeng666/rocky_studio/issues)
+All discussion happens via **GitHub Issues** (which is always enabled and works without extra setup):
+
+- **Start a new discussion:** <https://github.com/pengpengpeng666/rocky_studio/issues/new?template=discussion.md&title=Discussion%3A+>
+- **Browse existing discussions:** <https://github.com/pengpengpeng666/rocky_studio/issues>
+
+The discussion page also embeds an [utterances](https://utteranc.es/) widget so you can read and post directly from the site.
 
 ## Local preview
 
@@ -23,14 +29,14 @@ python3 -m http.server 8000
 ## Deployment
 
 The site is automatically published to GitHub Pages via the workflow in
-`.github/workflows/pages.yml` on every push to `main`.
+`.github/workflows/pages.yml` on every push to `main`. The workflow uses the
+`enablement: true` flag so Pages is automatically configured — no manual
+Settings change is required.
 
-To enable it:
+To trigger a deploy:
 
-1. Push this repository to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. Trigger the workflow by pushing to `main` (or run it manually from the Actions tab).
+1. Push to `main`, or
+2. Go to the **Actions** tab, select **Deploy to GitHub Pages**, and click **Run workflow**.
 
 ## File layout
 
@@ -38,3 +44,4 @@ To enable it:
 - `assets/css/style.css` — stylesheet
 - `assets/js/main.js` — small interactive helpers
 - `.github/workflows/pages.yml` — GitHub Pages deployment workflow
+- `.github/ISSUE_TEMPLATE/discussion.md` — issue template for new discussions
