@@ -8,8 +8,8 @@ Rocky's Studio is a collection of small, focused, in-browser web tools for devel
 
 ## Where to discuss
 
-- **Ideas & questions:** [GitHub Discussions](https://github.com/rocky-studio/rocky-studio/discussions)
-- **Bug reports:** [GitHub Issues](https://github.com/rocky-studio/rocky-studio/issues)
+- **Ideas & questions:** [GitHub Discussions](https://github.com/pengpengpeng666/rocky_studio/discussions)
+- **Bug reports:** [GitHub Issues](https://github.com/pengpengpeng666/rocky_studio/issues)
 
 ## Local preview
 
