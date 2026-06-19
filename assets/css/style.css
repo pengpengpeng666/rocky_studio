@@ -176,6 +176,17 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   margin: 8px 0 16px;
 }
 
+.discuss-embed {
+  margin-top: 32px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.discuss-embed h3 { margin-top: 0; }
+
+.muted { color: var(--muted); }
+
 .changelog-entry {
   background: var(--surface);
   border: 1px solid var(--border);
