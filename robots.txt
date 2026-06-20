@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pengpengpeng666.github.io/rocky_studio/sitemap.xml
+
+Crawl-delay: 1

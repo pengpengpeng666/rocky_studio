@@ -35,6 +35,22 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   padding: 0 20px;
 }
 
+/* Skip link — accessibility */
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 0;
+  background: var(--accent);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 0 0 8px 0;
+  font-weight: 600;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 0;
+}
+
 .site-header {
   background: rgba(15, 17, 23, 0.85);
   backdrop-filter: blur(8px);

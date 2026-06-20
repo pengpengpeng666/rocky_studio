@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="100%" stop-color="#1b2030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#3dccff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative grid -->
+  <g stroke="#2a2f42" stroke-width="0.5" opacity="0.4">
+    <line x1="0" y1="157" x2="1200" y2="157"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="473" x2="1200" y2="473"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+  </g>
+
+  <!-- Background glow -->
+  <ellipse cx="200" cy="200" rx="300" ry="200" fill="#7c5cff" opacity="0.08"/>
+  <ellipse cx="1000" cy="430" rx="350" ry="250" fill="#3dccff" opacity="0.07"/>
+
+  <!-- Logo -->
+  <rect x="60" y="60" width="72" height="72" rx="18" fill="url(#accent)"/>
+  <text x="96" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="26" fill="white">RS</text>
+
+  <text x="155" y="100" font-family="system-ui, sans-serif" font-weight="700" font-size="38" fill="white">Rocky's Studio</text>
+  <text x="155" y="128" font-family="system-ui, sans-serif" font-weight="400" font-size="18" fill="#a0a6b8">Free In-Browser Developer Tools Suite</text>
+
+  <!-- Main headline -->
+  <text x="600" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="56" fill="url(#accent)">24+ Free Tools</text>
+  <text x="600" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="400" font-size="22" fill="#e6e8ef">No signup · No uploads · No tracking · 100% private</text>
+
+  <!-- Tool cards -->
+  <g transform="translate(60, 385)" font-family="system-ui, sans-serif">
+    <rect width="240" height="80" rx="12" fill="#1b2030" stroke="#2a2f42" stroke-width="1"/>
+    <text x="120" y="38" text-anchor="middle" font-weight="700" font-size="15" fill="white">JSON Formatter</text>
+    <text x="120" y="58" text-anchor="middle" font-size="12" fill="#a0a6b8">Validate &amp; beautify JSON</text>
+
+    <rect x="270" width="240" height="80" rx="12" fill="#1b2030" stroke="#2a2f42" stroke-width="1"/>
+    <text x="390" y="38" text-anchor="middle" font-weight="700" font-size="15" fill="white">Regex Tester</text>
+    <text x="390" y="58" text-anchor="middle" font-size="12" fill="#a0a6b8">Live match highlighting</text>
+
+    <rect x="540" width="240" height="80" rx="12" fill="#1b2030" stroke="#2a2f42" stroke-width="1"/>
+    <text x="660" y="38" text-anchor="middle" font-weight="700" font-size="15" fill="white">HTTP Client</text>
+    <text x="660" y="58" text-anchor="middle" font-size="12" fill="#a0a6b8">Full request inspection</text>
+
+    <rect x="810" width="240" height="80" rx="12" fill="#1b2030" stroke="#2a2f42" stroke-width="1"/>
+    <text x="930" y="38" text-anchor="middle" font-weight="700" font-size="15" fill="white">Certificate Viewer</text>
+    <text x="930" y="58" text-anchor="middle" font-size="12" fill="#a0a6b8">X.509 SSL/TLS decode</text>
+
+    <rect x="1080" width="60" height="80" rx="12" fill="#1b2030" stroke="#2a2f42" stroke-width="1"/>
+    <text x="1110" y="55" text-anchor="middle" font-weight="700" font-size="20" fill="url(#accent)">+19</text>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="590" width="1200" height="40" fill="#0a0c12" opacity="0.8"/>
+  <text x="600" y="617" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#a0a6b8">rocky-studio.pages.dev</text>
+</svg>

@@ -3,18 +3,210 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Rocky's Studio — A modern web tools suite. Introduction and discussion site." />
-  <title>Rocky's Studio — Introduction & Discussion</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Primary Meta Tags -->
+  <title>Rocky's Studio — Free In-Browser Developer Tools Suite (24+ Tools)</title>
+  <meta name="title" content="Rocky's Studio — Free In-Browser Developer Tools Suite (24+ Tools)" />
+  <meta name="description" content="Rocky's Studio is a free, privacy-first suite of 24+ browser-based developer tools: JSON formatter, regex tester, HTTP client, SQLite editor, packet analyzer, X.509 certificate viewer, and more. No signup, no uploads, no tracking." />
+  <meta name="keywords" content="online developer tools, free JSON formatter, regex tester online, HTTP client, SQLite browser editor, packet analyzer, Base64 encoder, URL encoder, UUID generator, timestamp converter, certificate viewer, password generator, web tools suite, developer utilities, in-browser tools" />
+  <meta name="author" content="Rocky's Studio" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://pengpengpeng666.github.io/rocky_studio/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pengpengpeng666.github.io/rocky_studio/" />
+  <meta property="og:title" content="Rocky's Studio — Free In-Browser Developer Tools Suite (24+ Tools)" />
+  <meta property="og:description" content="A free, privacy-first suite of 24+ browser-based developer tools: JSON formatter, regex tester, HTTP client, SQLite editor, packet analyzer, X.509 certificate viewer, and more. No signup, no uploads." />
+  <meta property="og:image" content="https://pengpengpeng666.github.io/rocky_studio/assets/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Rocky's Studio — Free In-Browser Developer Tools Suite" />
+  <meta property="og:image:type" content="image/svg+xml" />
+  <meta property="og:site_name" content="Rocky's Studio" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://pengpengpeng666.github.io/rocky_studio/" />
+  <meta name="twitter:title" content="Rocky's Studio — Free In-Browser Developer Tools Suite (24+ Tools)" />
+  <meta name="twitter:description" content="24+ free browser-based developer tools: JSON formatter, regex tester, HTTP client, SQLite editor, packet analyzer, X.509 certificate viewer, and more." />
+  <meta name="twitter:image" content="https://pengpengpeng666.github.io/rocky_studio/assets/og-image.svg" />
+  <meta name="twitter:image:alt" content="Rocky's Studio — Free In-Browser Developer Tools Suite" />
+  <meta name="twitter:creator" content="@rockystudio" />
+
+  <!-- Favicon (inline SVG as data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%237c5cff'/%3E%3Cstop offset='100%25' stop-color='%233dccff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='system-ui,sans-serif' font-weight='800' font-size='14' fill='white'%3ERS%3C/text%3E%3C/svg%3E" />
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0f1117" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Performance: Preconnect to external origins -->
+  <link rel="preconnect" href="https://rocky-studio.pages.dev" />
+  <link rel="dns-prefetch" href="https://rocky-studio.pages.dev" />
+  <link rel="preconnect" href="https://utteranc.es" />
+  <link rel="dns-prefetch" href="https://utteranc.es" />
+
+  <!-- Stylesheet with media=print for non-blocking load -->
+  <link rel="stylesheet" href="assets/css/style.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
+
+  <!-- JSON-LD: WebSite with SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Rocky's Studio",
+    "alternateName": "Rocky's Studio — Free Developer Tools",
+    "url": "https://rocky-studio.pages.dev/#/",
+    "description": "A free, privacy-first suite of 24+ browser-based developer tools: JSON formatter, regex tester, HTTP client, SQLite editor, packet analyzer, and more.",
+    "keywords": "online developer tools, JSON formatter, regex tester, HTTP client, SQLite editor, packet analyzer, Base64, URL encoder, web tools",
+    "inLanguage": "en-US",
+    "isAccessibleForFree": true,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rocky's Studio",
+      "url": "https://pengpengpeng666.github.io/rocky_studio/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pengpengpeng666.github.io/rocky_studio/assets/favicon.svg"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://rocky-studio.pages.dev/#/tools/{search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rocky's Studio",
+    "url": "https://rocky-studio.pages.dev/#/",
+    "description": "Free, browser-based developer tools — no signup, no uploads, no tracking.",
+    "sameAs": [
+      "https://github.com/pengpengpeng666/rocky_studio"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://pengpengpeng666.github.io/rocky_studio/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: ItemList — Developer Tools -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Rocky's Studio — Developer Tools",
+    "description": "Complete list of free in-browser developer tools provided by Rocky's Studio.",
+    "numberOfItems": 24,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1,  "name": "JSON Formatter",            "url": "https://rocky-studio.pages.dev/#/tools/json-formatter"},
+      {"@type": "ListItem", "position": 2,  "name": "JSON Schema Validator",     "url": "https://rocky-studio.pages.dev/#/tools/json-schema-validator"},
+      {"@type": "ListItem", "position": 3,  "name": "URL Encoder",               "url": "https://rocky-studio.pages.dev/#/tools/url-encoder"},
+      {"@type": "ListItem", "position": 4,  "name": "Base64 Converter",          "url": "https://rocky-studio.pages.dev/#/tools/base64"},
+      {"@type": "ListItem", "position": 5,  "name": "Regex Tester",              "url": "https://rocky-studio.pages.dev/#/tools/regex"},
+      {"@type": "ListItem", "position": 6,  "name": "Color Picker",              "url": "https://rocky-studio.pages.dev/#/tools/color-picker"},
+      {"@type": "ListItem", "position": 7,  "name": "HTTP Client",               "url": "https://rocky-studio.pages.dev/#/tools/http-client"},
+      {"@type": "ListItem", "position": 8,  "name": "Timestamp Converter",       "url": "https://rocky-studio.pages.dev/#/tools/timestamp-converter"},
+      {"@type": "ListItem", "position": 9,  "name": "UUID Generator",            "url": "https://rocky-studio.pages.dev/#/tools/uuid-generator"},
+      {"@type": "ListItem", "position": 10, "name": "SQLite Editor",             "url": "https://rocky-studio.pages.dev/#/tools/sqlite-editor"},
+      {"@type": "ListItem", "position": 11, "name": "Unit Converter",            "url": "https://rocky-studio.pages.dev/#/tools/unit-converter"},
+      {"@type": "ListItem", "position": 12, "name": "Online Calculator",         "url": "https://rocky-studio.pages.dev/#/tools/online-calculator"},
+      {"@type": "ListItem", "position": 13, "name": "Password Generator",       "url": "https://rocky-studio.pages.dev/#/tools/password-generator"},
+      {"@type": "ListItem", "position": 14, "name": "X.509 Certificate Viewer", "url": "https://rocky-studio.pages.dev/#/tools/x509-certificate-viewer"},
+      {"@type": "ListItem", "position": 15, "name": "Certificate Chain Builder",  "url": "https://rocky-studio.pages.dev/#/tools/cert-chain"},
+      {"@type": "ListItem", "position": 16, "name": "Packet Analyzer",            "url": "https://rocky-studio.pages.dev/#/tools/packet-analyzer"},
+      {"@type": "ListItem", "position": 17, "name": "Compressed File Viewer",     "url": "https://rocky-studio.pages.dev/#/tools/compressed-viewer"},
+      {"@type": "ListItem", "position": 18, "name": "NMEA Decoder",               "url": "https://rocky-studio.pages.dev/#/tools/nmea-decoder"},
+      {"@type": "ListItem", "position": 19, "name": "QR Code Generator",         "url": "https://rocky-studio.pages.dev/#/tools/qr-code"},
+      {"@type": "ListItem", "position": 20, "name": "Text Editor",               "url": "https://rocky-studio.pages.dev/#/tools/text-editor"},
+      {"@type": "ListItem", "position": 21, "name": "Markdown Preview",           "url": "https://rocky-studio.pages.dev/#/tools/markdown"},
+      {"@type": "ListItem", "position": 22, "name": "Folder / File Diff",        "url": "https://rocky-studio.pages.dev/#/tools/folder-file-diff"},
+      {"@type": "ListItem", "position": 23, "name": "ASCII Art Generator",       "url": "https://rocky-studio.pages.dev/#/tools/ascii-art-generator"},
+      {"@type": "ListItem", "position": 24, "name": "Timezone Converter",        "url": "https://rocky-studio.pages.dev/#/tools/timezone"}
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Rocky's Studio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rocky's Studio is a free, privacy-first suite of 24+ browser-based developer tools. It includes JSON formatter, regex tester, HTTP client, SQLite editor, packet analyzer, X.509 certificate viewer, and many more. All tools run entirely in your browser — no signup, no data uploads, no tracking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Rocky's Studio tools free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, all Rocky's Studio tools are completely free to use. There is no signup required, no account needed, and no usage limits. Your data never leaves your browser."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my data safe when using Rocky's Studio tools?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All processing happens entirely in your browser. No data is ever uploaded to any server. Rocky's Studio tools do not use cookies or tracking analytics."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What developer tools are available?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rocky's Studio offers 24+ tools covering data formats (JSON, Base64, URL encoding), network tools (HTTP client, packet analyzer), security tools (X.509 certificate viewer, certificate chain builder, password generator), database tools (SQLite editor), and productivity utilities (markdown preview, text editor, regex tester, QR code generator, ASCII art generator, timezone converter, and more)."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <header class="site-header">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
     <div class="container">
-      <a href="https://rocky-studio.pages.dev/#/" class="brand" target="_blank" rel="noopener">
-        <span class="brand-mark">RS</span>
+      <a href="https://rocky-studio.pages.dev/#/" class="brand" aria-label="Rocky's Studio — Home" target="_blank" rel="noopener noreferrer">
+        <span class="brand-mark" aria-hidden="true">RS</span>
         <span class="brand-text">Rocky's Studio</span>
       </a>
-      <nav class="site-nav">
+      <nav class="site-nav" role="navigation" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#tools">Tools</a>
         <a href="#discuss">Discussion</a>
@@ -23,157 +215,154 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content" role="main">
+
+    <section class="hero" aria-label="Introduction">
       <div class="container">
         <h1>Rocky's Studio</h1>
-        <p class="subtitle">A modern web tools suite — simple, powerful, browser-first.</p>
+        <p class="subtitle">A modern, free developer tools suite — 24+ in-browser utilities for developers and power users. No signup, no uploads, no tracking.</p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="https://rocky-studio.pages.dev/#/" target="_blank" rel="noopener">Visit the Studio →</a>
-          <a class="btn btn-ghost" href="#discuss">Start a discussion</a>
+          <a class="btn btn-primary" href="https://rocky-studio.pages.dev/#/" target="_blank" rel="noopener noreferrer">Explore 24+ Free Tools →</a>
+          <a class="btn btn-ghost" href="#discuss">Join the Discussion</a>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
+    <section id="about" class="section" aria-labelledby="about-heading">
       <div class="container">
-        <h2>About</h2>
+        <h2 id="about-heading">About Rocky's Studio</h2>
         <p>
-          <a href="https://rocky-studio.pages.dev/#/" target="_blank" rel="noopener">Rocky's Studio</a>
-          is a collection of small, focused web tools that run entirely in your browser.
-          No sign-up, no uploads to a server, no tracking — just fast utilities for everyday developer
-          and power-user tasks.
+          <strong>Rocky's Studio</strong> is a curated collection of <strong>free, browser-based developer tools</strong> designed to make everyday tasks faster and easier. Whether you need to <strong>format and validate JSON</strong>, <strong>test regular expressions</strong>, <strong>inspect X.509 certificates</strong>, or <strong>analyze network packet captures</strong>, Rocky's Studio has a tool for it.
         </p>
         <p>
-          This repository is the introduction and discussion hub for the project. Use it to
-          propose features, report bugs, share ideas, and follow development updates.
+          Every tool runs <strong>entirely in your browser</strong>. Zero data ever leaves your device. No account required, no cookies, no tracking. It's the <strong>privacy-first alternative</strong> to cluttered online tool sites — fast, focused, and free forever.
+        </p>
+        <p>
+          This repository is the <strong>official introduction and discussion hub</strong> for Rocky's Studio. Use it to report bugs, suggest new tools, discuss features, and follow the project's development.
         </p>
       </div>
     </section>
 
-    <section id="tools" class="section section-alt">
+    <section id="tools" class="section section-alt" aria-labelledby="tools-heading">
       <div class="container">
-        <h2>Tools</h2>
-        <p class="section-lead">A quick overview of what's available in the studio.</p>
-        <div class="tool-grid">
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/json-formatter" target="_blank" rel="noopener">
+        <h2 id="tools-heading">Free Developer Tools — 24+ In-Browser Utilities</h2>
+        <p class="section-lead">Browse the complete suite of Rocky's Studio developer tools. All tools are free, run in your browser, and process data locally.</p>
+        <div class="tool-grid" role="list">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/json-formatter" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>JSON Formatter</h3>
-            <p>Format, validate, and beautify JSON with real-time preview.</p>
+            <p>Format, validate, and beautify JSON with real-time syntax highlighting and error diagnostics.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/json-schema-validator" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/json-schema-validator" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>JSON Schema Validator</h3>
-            <p>Validate JSON against a schema with detailed diagnostics.</p>
+            <p>Validate JSON documents against a JSON Schema with detailed, actionable error messages.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/url-encoder" target="_blank" rel="noopener">
-            <h3>URL Encoder</h3>
-            <p>Encode and decode URLs instantly.</p>
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/url-encoder" target="_blank" rel="noopener noreferrer" role="listitem">
+            <h3>URL Encoder / Decoder</h3>
+            <p>Encode and decode URL percent-encoding (RFC 3986) instantly in your browser.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/base64" target="_blank" rel="noopener">
-            <h3>Base64 Converter</h3>
-            <p>Encode and decode Base64 strings.</p>
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/base64" target="_blank" rel="noopener noreferrer" role="listitem">
+            <h3>Base64 Encoder / Decoder</h3>
+            <p>Encode text or binary data to Base64 and decode Base64 back to plain text — fully offline.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/regex" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/regex" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Regex Tester</h3>
-            <p>Test and debug regular expressions with match highlighting.</p>
+            <p>Build, test, and debug regular expressions with live match highlighting across multiple test strings.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/color-picker" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/color-picker" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Color Picker</h3>
-            <p>Convert between color formats (HEX, RGB, HSL, HSV).</p>
+            <p>Pick colors visually and convert between HEX, RGB, HSL, HSV, CMYK, and CSS color formats.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/http-client" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/http-client" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>HTTP Client</h3>
-            <p>Send HTTP requests and view responses in-browser.</p>
+            <p>Send HTTP requests (GET, POST, PUT, DELETE, PATCH) directly from your browser with full request/response inspection.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/timestamp-converter" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/timestamp-converter" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Timestamp Converter</h3>
-            <p>Convert between Unix timestamps and human-readable dates.</p>
+            <p>Convert Unix timestamps to human-readable dates and vice versa. Supports seconds, milliseconds, and microseconds.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/uuid-generator" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/uuid-generator" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>UUID Generator</h3>
-            <p>Generate random UUID v4 identifiers.</p>
+            <p>Generate random UUID v4 identifiers instantly. Batch-generate multiple UUIDs with one click.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/sqlite-editor" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/sqlite-editor" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>SQLite Editor</h3>
-            <p>Read, edit and query SQLite databases directly in your browser.</p>
+            <p>Read, query, and edit SQLite databases (.db, .sqlite) directly in your browser — no server required.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/unit-converter" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/unit-converter" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Unit Converter</h3>
-            <p>Convert between length, weight, volume, area, time and temperature.</p>
+            <p>Convert length, weight, volume, area, time, temperature and more — fast and free in your browser.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/online-calculator" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/online-calculator" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Online Calculator</h3>
-            <p>Simple, Scientific and Programmer modes in one calculator.</p>
+            <p>A full-featured calculator with Simple, Scientific, and Programmer modes — binary, hex, octal conversions included.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/password-generator" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/password-generator" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Password Generator</h3>
-            <p>Generate secure random passwords with customizable options.</p>
+            <p>Generate cryptographically secure random passwords with customizable length, character sets, and complexity rules.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/x509-certificate-viewer" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/x509-certificate-viewer" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>X.509 Certificate Viewer</h3>
-            <p>Decode, inspect, and analyze X.509 certificates.</p>
+            <p>Decode, inspect, and analyze X.509 SSL/TLS certificates in PEM or DER format — view subject, issuer, extensions, and validity.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/cert-chain" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/cert-chain" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Certificate Chain Builder</h3>
-            <p>Build and validate X.509 certificate chains with signature verification.</p>
+            <p>Build, validate, and verify X.509 certificate chains with signature verification, DN linking, and chain ordering checks.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/packet-analyzer" target="_blank" rel="noopener">
-            <h3>Packet Analyzer</h3>
-            <p>Parse .pcap / .pcapng captures — Ethernet, IPv4/IPv6, TCP, UDP and more.</p>
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/packet-analyzer" target="_blank" rel="noopener noreferrer" role="listitem">
+            <h3>Packet Analyzer (PCAP)</h3>
+            <p>Parse and inspect .pcap and .pcapng network capture files — supports Ethernet, IPv4, IPv6, TCP, UDP, ICMP, DNS, DHCP, HTTP, and TLS layers.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/compressed-viewer" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/compressed-viewer" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Compressed File Viewer</h3>
-            <p>Inspect ZIP, TAR, GZIP, .tar.gz, .7z, .zst archives with preview.</p>
+            <p>Inspect ZIP, TAR, GZIP, .tar.gz, .7z, .zst, and .tar.zst archives in-browser with CSV/JSON/image preview and nested archive drill-down.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/nmea-decoder" target="_blank" rel="noopener">
-            <h3>NMEA Decoder</h3>
-            <p>Decode GNSS NMEA 0183 sentences with human-readable fields.</p>
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/nmea-decoder" target="_blank" rel="noopener noreferrer" role="listitem">
+            <h3>NMEA 0183 Decoder</h3>
+            <p>Decode GNSS NMEA sentences (GGA, RMC, GSA, GSV, VTG, GLL, ZDA, TXT) with checksum validation and satellite-in-view summary.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/qr-code" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/qr-code" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>QR Code Generator</h3>
-            <p>Custom QR codes with configurable error correction and colors.</p>
+            <p>Generate custom QR codes from text or URLs with configurable error correction level, pixel size, and colors. Download as PNG.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/text-editor" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/text-editor" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Text Editor</h3>
-            <p>Rich in-browser text editor with regex find/replace and draft save.</p>
+            <p>A powerful in-browser text editor with regex find-and-replace, case transforms, line sorting, auto-save drafts, and file download.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/markdown" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/markdown" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Markdown Preview</h3>
-            <p>Live markdown to HTML converter.</p>
+            <p>Live markdown-to-HTML converter with GitHub Flavored Markdown (GFM) support, syntax highlighting, and copy-to-clipboard.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/folder-file-diff" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/folder-file-diff" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Folder / File Diff</h3>
-            <p>Compare two text files or two folder trees side-by-side.</p>
+            <p>Compare two text files or two folder trees side-by-side with line-level diff highlighting and an ignore-whitespace option.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/ascii-art-generator" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/ascii-art-generator" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>ASCII Art Generator</h3>
-            <p>Turn text into beautiful ASCII-art banners in many styles.</p>
+            <p>Turn any text into decorative ASCII-art banners — supports Banner, Block, Bold, Shadow, 3D, Graffiti, Bubble, Matrix, and Slant styles.</p>
           </a>
-          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/timezone" target="_blank" rel="noopener">
+          <a class="tool-card" href="https://rocky-studio.pages.dev/#/tools/timezone" target="_blank" rel="noopener noreferrer" role="listitem">
             <h3>Timezone Converter</h3>
-            <p>World clock and IANA timezone explorer with DST info.</p>
+            <p>World clock, timezone explorer, and converter — see local time in major cities, convert between IANA timezones, and browse DST information.</p>
           </a>
         </div>
       </div>
     </section>
 
-    <section id="discuss" class="section">
+    <section id="discuss" class="section" aria-labelledby="discuss-heading">
       <div class="container">
-        <h2>Discussion</h2>
+        <h2 id="discuss-heading">Discussion &amp; Community</h2>
         <p>
-          This is the discussion hub for Rocky's Studio. Share ideas, report issues, ask questions,
-          and follow updates below. The discussion thread is backed by
-          <a href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener">GitHub Issues</a>
-          so nothing is lost.
+          Have a question about Rocky's Studio tools, want to propose a new feature, or found a bug? This is the right place. All discussions happen via GitHub Issues — which is always enabled and works without extra setup.
         </p>
         <div class="discuss-actions">
-          <a class="btn btn-primary" href="https://github.com/pengpengpeng666/rocky_studio/issues/new?template=discussion.md&title=Discussion%3A+" target="_blank" rel="noopener">Start a new discussion</a>
-          <a class="btn btn-outline" href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener">Browse all discussions</a>
+          <a class="btn btn-primary" href="https://github.com/pengpengpeng666/rocky_studio/issues/new?template=discussion.md&title=Discussion%3A+" target="_blank" rel="noopener noreferrer">Start a new discussion</a>
+          <a class="btn btn-outline" href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener noreferrer">Browse all discussions</a>
         </div>
         <h3>How to contribute</h3>
         <ol>
-          <li>Check existing <a href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener">discussions</a> before opening a new one.</li>
-          <li>Use a clear title that summarises your question, idea, or bug.</li>
-          <li>When reporting a bug, include steps to reproduce, browser, and a screenshot when helpful.</li>
+          <li>Check existing <a href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener noreferrer">discussions</a> before opening a new one.</li>
+          <li>Use a clear, descriptive title that summarises your question, idea, or bug.</li>
+          <li>When reporting a bug, include steps to reproduce, your browser and OS, and a screenshot when helpful.</li>
           <li>Be kind — this project is maintained by volunteers.</li>
         </ol>
         <div class="discuss-embed">
@@ -190,7 +379,7 @@
           <noscript>
             <p class="muted">
               <em>JavaScript is required for the embedded discussion widget. You can also
-              <a href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener">browse discussions on GitHub</a>
+              <a href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener noreferrer">browse discussions on GitHub</a>
               directly.</em>
             </p>
           </noscript>
@@ -198,26 +387,32 @@
       </div>
     </section>
 
-    <section id="changelog" class="section section-alt">
+    <section id="changelog" class="section section-alt" aria-labelledby="changelog-heading">
       <div class="container">
-        <h2>Changelog</h2>
-        <p class="section-lead">Recent updates to the studio.</p>
+        <h2 id="changelog-heading">Changelog</h2>
+        <p class="section-lead">Recent updates and releases for Rocky's Studio.</p>
         <article class="changelog-entry">
-          <h3>Initial rollout <span class="tag">Launch</span></h3>
+          <h3>Initial public launch <span class="tag">Launch</span></h3>
           <p class="changelog-date">2025</p>
           <p>
-            Rocky's Studio is live with 24+ in-browser tools spanning developer utilities,
-            security inspection, data analysis and everyday productivity.
+            Rocky's Studio launches with <strong>24+ free in-browser developer tools</strong> covering data formats (JSON, Base64, URL encoding), network inspection (HTTP client, packet analyzer), security tools (X.509 certificate viewer, certificate chain builder, password generator), database tools (SQLite editor), and productivity utilities (markdown preview, text editor, regex tester, QR code generator, ASCII art generator, timezone converter, and more).
           </p>
         </article>
       </div>
     </section>
+
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <p>&copy; Rocky's Studio — Introduction &amp; Discussion hub.</p>
-      <p><a href="https://rocky-studio.pages.dev/#/" target="_blank" rel="noopener">rocky-studio.pages.dev</a></p>
+      <p>© 2025 Rocky's Studio — <a href="https://rocky-studio.pages.dev/#/" target="_blank" rel="noopener noreferrer">rocky-studio.pages.dev</a></p>
+      <p>
+        <a href="https://github.com/pengpengpeng666/rocky_studio" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/pengpengpeng666/rocky_studio/issues" target="_blank" rel="noopener noreferrer">Report an Issue</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/pengpengpeng666/rocky_studio/issues/new?template=discussion.md&title=Discussion%3A+" target="_blank" rel="noopener noreferrer">Start a Discussion</a>
+      </p>
     </div>
   </footer>
 
