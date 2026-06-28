@@ -1,6 +1,6 @@
 # Rocky's Studio — Introduction & Discussion
 
-This repository hosts the GitHub Pages site that serves as the introduction and discussion hub for **Rocky's Studio**: <https://rocky-studio.pages.dev/#/>
+This repository hosts the GitHub Pages site that serves as the introduction and discussion hub for **Rocky's Studio**: <https://rocky-studio.pages.dev/>
 
 The published Pages site lives at: <https://pengpengpeng666.github.io/rocky_studio/>
 
